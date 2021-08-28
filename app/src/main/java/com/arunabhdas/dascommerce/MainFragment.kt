@@ -36,7 +36,8 @@ class MainFragment : androidx.fragment.app.Fragment() {
             "Jeans",
             "Socks",
             "Pants",
-            "Jackets"
+            "Jackets",
+            "Other"
         )
 
         root.categoriesRecyclerView.apply {
