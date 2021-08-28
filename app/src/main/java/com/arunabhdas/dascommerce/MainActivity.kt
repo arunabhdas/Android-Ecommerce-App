@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.room.Room
-import com.danielmalone.dansecommerce.cart.CartActivity
-import com.danielmalone.dansecommerce.database.AppDatabase
-import com.danielmalone.dansecommerce.database.CartModel
-import com.danielmalone.dansecommerce.database.ProductFromDatabase
+import com.arunabhdas.dascommerce.cart.CartActivity
+import com.arunabhdas.dascommerce.database.AppDatabase
+import com.arunabhdas.dascommerce.database.CartModel
+import com.arunabhdas.dascommerce.database.ProductFromDatabase
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.main.*
 import org.jetbrains.anko.doAsync

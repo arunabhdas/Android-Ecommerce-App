@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import org.junit.Test
 

@@ -1,10 +1,10 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.danielmalone.dansecommerce.model.Product
-import com.danielmalone.dansecommerce.repos.ProductsRepository
+import com.arunabhdas.dascommerce.model.Product
+import com.arunabhdas.dascommerce.repos.ProductsRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce.model
+package com.arunabhdas.dascommerce.model
 
 import com.google.gson.annotations.SerializedName
 

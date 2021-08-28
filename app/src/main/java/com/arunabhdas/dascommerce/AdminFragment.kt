@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import android.os.Bundle
 import android.util.Log.d
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.room.Room
-import com.danielmalone.dansecommerce.database.AppDatabase
-import com.danielmalone.dansecommerce.database.ProductFromDatabase
+import com.arunabhdas.dascommerce.database.AppDatabase
+import com.arunabhdas.dascommerce.database.ProductFromDatabase
 import kotlinx.android.synthetic.main.fragment_admin.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread

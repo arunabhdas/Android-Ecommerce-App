@@ -1,11 +1,11 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.danielmalone.dansecommerce.model.Product
+import com.arunabhdas.dascommerce.model.Product
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.product_row.view.*
 

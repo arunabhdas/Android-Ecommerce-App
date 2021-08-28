@@ -1,6 +1,6 @@
-package com.danielmalone.dansecommerce.repos
+package com.arunabhdas.dascommerce.repos
 
-import com.danielmalone.dansecommerce.model.Product
+import com.arunabhdas.dascommerce.model.Product
 import retrofit2.http.GET
 
 interface EcommerceApi {

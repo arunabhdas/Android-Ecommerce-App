@@ -1,11 +1,11 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.danielmalone.dansecommerce.productdetails.ProductDetailsViewModel
+import com.arunabhdas.dascommerce.productdetails.ProductDetailsViewModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.product_details.*
 

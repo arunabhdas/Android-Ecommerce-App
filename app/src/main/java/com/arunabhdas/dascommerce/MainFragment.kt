@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce
+package com.arunabhdas.dascommerce
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,7 +12,7 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
-import com.danielmalone.dansecommerce.model.Product
+import com.arunabhdas.dascommerce.model.Product
 import kotlinx.android.synthetic.main.fragment_main.*
 import kotlinx.android.synthetic.main.fragment_main.view.*
 
@@ -36,8 +36,7 @@ class MainFragment : androidx.fragment.app.Fragment() {
             "Jeans",
             "Socks",
             "Pants",
-            "Jackets",
-            "Daniel"
+            "Jackets"
         )
 
         root.categoriesRecyclerView.apply {

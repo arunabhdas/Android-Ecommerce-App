@@ -1,4 +1,4 @@
-package com.danielmalone.dansecommerce.database
+package com.arunabhdas.dascommerce.database
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

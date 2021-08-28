@@ -1,8 +1,8 @@
-package com.danielmalone.dansecommerce.cart
+package com.arunabhdas.dascommerce.cart
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.danielmalone.dansecommerce.R
+import com.arunabhdas.dascommerce.R
 
 class CartActivity : AppCompatActivity() {
 
