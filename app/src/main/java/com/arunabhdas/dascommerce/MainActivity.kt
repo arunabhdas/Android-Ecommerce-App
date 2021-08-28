@@ -12,6 +12,10 @@ import com.arunabhdas.dascommerce.cart.CartActivity
 import com.arunabhdas.dascommerce.database.AppDatabase
 import com.arunabhdas.dascommerce.database.CartModel
 import com.arunabhdas.dascommerce.database.ProductFromDatabase
+import com.arunabhdas.dascommerce.fragment.AdminFragment
+import com.arunabhdas.dascommerce.fragment.HomeFragment
+import com.arunabhdas.dascommerce.fragment.JeansFragment
+import com.arunabhdas.dascommerce.fragment.MainFragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.main.*
 import org.jetbrains.anko.doAsync
@@ -58,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.actionHome -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.frameLayout, MainFragment())
+                        .replace(R.id.frameLayout, HomeFragment())
                         .commit()
                 }
                 R.id.actionJeans -> {

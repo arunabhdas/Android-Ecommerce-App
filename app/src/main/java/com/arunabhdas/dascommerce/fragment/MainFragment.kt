@@ -1,4 +1,4 @@
-package com.arunabhdas.dascommerce
+package com.arunabhdas.dascommerce.fragment
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,6 +12,7 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
+import com.arunabhdas.dascommerce.*
 import com.arunabhdas.dascommerce.model.Product
 import kotlinx.android.synthetic.main.fragment_main.*
 import kotlinx.android.synthetic.main.fragment_main.view.*

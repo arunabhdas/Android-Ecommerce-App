@@ -1,4 +1,4 @@
-package com.arunabhdas.dascommerce
+package com.arunabhdas.dascommerce.fragment
 
 import android.os.Bundle
 import android.util.Log.d
@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.room.Room
+import com.arunabhdas.dascommerce.R
 import com.arunabhdas.dascommerce.database.AppDatabase
 import com.arunabhdas.dascommerce.database.ProductFromDatabase
 import kotlinx.android.synthetic.main.fragment_admin.*

@@ -1,9 +1,10 @@
-package com.arunabhdas.dascommerce
+package com.arunabhdas.dascommerce.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.arunabhdas.dascommerce.R
 
 class JeansFragment : androidx.fragment.app.Fragment() {
 

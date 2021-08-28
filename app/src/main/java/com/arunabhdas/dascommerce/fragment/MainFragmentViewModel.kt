@@ -1,4 +1,4 @@
-package com.arunabhdas.dascommerce
+package com.arunabhdas.dascommerce.fragment
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
