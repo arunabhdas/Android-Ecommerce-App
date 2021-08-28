@@ -20,7 +20,7 @@ class ProductsAdapter(
         holder.title.text = product.title
         holder.price.text = product.price.toString()
 
-        if (product.isOnSale) {
+        if (product.isOnSale == 1) {
             holder.saleImageView.visibility = View.VISIBLE
         } else {
             holder.saleImageView.visibility = View.GONE

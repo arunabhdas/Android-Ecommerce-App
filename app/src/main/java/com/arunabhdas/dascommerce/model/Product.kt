@@ -19,5 +19,5 @@ data class Product(
         val price: Double,
 
         @SerializedName("isOnSale")
-        val isOnSale: Boolean
+        val isOnSale: Int
 )
