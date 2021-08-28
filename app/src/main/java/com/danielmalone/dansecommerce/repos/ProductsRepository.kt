@@ -8,18 +8,22 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.net.URL
 
+const val BASE_URL_HTTPS = "https://finepointmobile.com/"
+const val BASE_URL_HTTP = "https://mountshastaplatform.herokuapp.com/"
+
 class ProductsRepository {
 
     private fun retrofit(): EcommerceApi {
         return Retrofit.Builder()
-            .baseUrl("https://finepointmobile.com/")
+            .baseUrl(BASE_URL_HTTP)
             .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
             .build()
             .create(EcommerceApi::class.java)
     }
 
     suspend fun fetchAllProductsRetrofit(): List<Product> {
-        return retrofit().fetchAllProducts()
+        // TODO-FIXME-DEBUG return retrofit().fetchAllProducts()
+        return retrofit().fetchProducts()
     }
 
     fun getAllProducts(): Single<List<Product>> {

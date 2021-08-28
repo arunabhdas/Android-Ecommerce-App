@@ -7,4 +7,7 @@ interface EcommerceApi {
 
     @GET("api/ecommerce/v1/allProducts")
     suspend fun fetchAllProducts(): List<Product>
+
+    @GET("api/products")
+    suspend fun fetchProducts(): List<Product>
 }

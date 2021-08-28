@@ -27,7 +27,8 @@ class ProductDetails : AppCompatActivity() {
             thePriceOfProduct.text = "$${it.price}"
         })
 
-        viewModel.fetchProductDetails(title)
+        // TODO-FIXME-DEBUG viewModel.fetchProductDetails(title)
+        viewModel.fetchAllProductDetails(title)
 
         addToCartButton.setOnClickListener {
 
